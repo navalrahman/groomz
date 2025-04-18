@@ -1,0 +1,40 @@
+.contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;    
+    background-color: #2B2E35;
+    /* border: 1px solid red; */
+    /* background-color: ; */
+}
+.contat-container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contat-container img{
+    padding: 10px;
+    border-radius: 90%;
+}
+
+.contat-container h3,h5{
+    color: #ffffff;
+}
+
+.contact-us{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 3%;
+}
+
+.contact-us h4,a{
+    color: #ffffff;
+}
