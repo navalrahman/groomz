@@ -13,7 +13,7 @@ const handleInstagramClick = () => {
 const Contact = () => {
 
     const handleCall = () => {
-        window.open(`tel:${+918943981859}`);
+        window.opene(`tel:${+918943981859}`);
     };
 
     const handleCallTwo = () => {
