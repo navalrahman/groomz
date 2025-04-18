@@ -1,7 +1,12 @@
 import React from 'react'
 import './Contact.css'
 
+<<<<<<< HEAD
 import logo from '../../../images/instagram.jpg'
+=======
+// import logo from '../../../images/instagram.jpg'
+import logo from '../../../images/Instagram.jpg'
+>>>>>>> 532aac85629a32ff1bf17eeb94e86c627017e8d9
 // import logo from '../../../../public/instagram.jpg'
 
 const handleInstagramClick = () => {
@@ -12,7 +17,7 @@ const handleInstagramClick = () => {
 const Contact = () => {
 
     const handleCall = () => {
-        window.open(`tel:${+918943981859}`);
+        window.opene(`tel:${+918943981859}`);
     };
 
     const handleCallTwo = () => {
