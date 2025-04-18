@@ -2,7 +2,7 @@ import React from 'react'
 import './Contact.css'
 
 // import logo from '../../../images/instagram.jpg'
-import logo from '../../../../public/instagram.jpg'
+// import logo from '../../../../public/instagram.jpg'
 
 const handleInstagramClick = () => {
     const instgramUrl = "https://www.instagram.com/groomz_wedding/"; // example: Delhi coordinates
@@ -21,7 +21,7 @@ const Contact = () => {
     return (
         <div className='contact'>
             <div className='contat-container'>
-                <img src={logo} alt="instagram" width={"50px"} height={"50px"} onClick={handleInstagramClick} />
+                <img src="/instagram.jpg" alt="instagram" width={"50px"} height={"50px"} onClick={handleInstagramClick} />
                 <h3>Edavannappara</h3>
                 <h5>Kozhikode Road </h5>
                 <h5>Malappuram</h5>
