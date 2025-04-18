@@ -2,7 +2,7 @@ import React from 'react'
 import './Contact.css'
 
 // import logo from '../../../images/instagram.jpg'
-import logo from '../../../images/instagram.jpg'
+import logo from '../../../images/Instagram.jpg'
 // import logo from '../../../../public/instagram.jpg'
 
 const handleInstagramClick = () => {
