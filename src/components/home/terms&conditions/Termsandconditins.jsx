@@ -2,6 +2,8 @@ import React from 'react'
 import './Termsandconditions.css'
 import {Link} from 'react-router-dom'
 
+
+
 const Termsandconditions = () => {
   return (
     <div className='terms-container'>
