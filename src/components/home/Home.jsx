@@ -6,10 +6,10 @@ import Mensapparels from './mensapparels/Mensapparels'
 const Home = () => {
   return (
     <div>
-      <Header/>
+      {/* <Header/> */}
 
       <Mensapparels/>
-      <Contact/>
+      {/* <Contact/> */}
     </div>
   )
 }

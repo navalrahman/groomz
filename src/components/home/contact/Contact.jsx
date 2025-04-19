@@ -3,6 +3,7 @@ import './Contact.css'
 
 // import logo from '../../../images/instagram.jpg'
 import logo from '../../../images/Instagram.jpg'
+import { Link } from 'react-router-dom';
 // import logo from '../../../../public/instagram.jpg'
 
 const handleInstagramClick = () => {
@@ -32,11 +33,13 @@ const Contact = () => {
                 <h5>673645</h5>
             </div>
             <div className='contact-us'>
+                <Link style={{textDecoration:'none'}} to={'/about'}>About us</Link>
+                <Link style={{textDecoration:'none'}} to={'/terms&conditions'}>Terms & Conditions</Link>
                 <h4>Contact us - </h4>
-                <a href={`tel:${+918943981859}`} onClick={handleCall}>
+                <a style={{textDecoration:'none'}} href={`tel:${+918943981859}`} onClick={handleCall}>
                     8943981859
                 </a>
-                <a href={`tel:${+919645773395}`} onClick={handleCallTwo}>
+                <a style={{textDecoration:'none'}} href={`tel:${+919645773395}`} onClick={handleCallTwo}>
                     9645773395
                 </a>
             </div>

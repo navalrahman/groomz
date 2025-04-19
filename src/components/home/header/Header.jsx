@@ -23,12 +23,12 @@ const Header = () => {
             <img src={logo} alt="logo"  width={"70px"}/>
             {/* <h1>Logo</h1> */}
             <div className='heading'>
-                <h4>Rasheeda's</h4>
-                <h2>GROOM'Z </h2>
-                <h4>Weeding Costumes, Men's Apparels</h4>
+                <h5>Rasheeda's</h5>
+                <h1>GROOM'Z </h1>
+                <h4>Wedding Costumes, Mens Apparels</h4>
             </div>
             <div className='contact-location'>
-                <h4 onClick={scrollToBottom}>Conatct</h4>
+                <h4 onClick={scrollToBottom}>Contact</h4>
                 <h4 onClick={handleLocationClick}>Location</h4>
             </div>
         </div>
