@@ -1,15 +1,12 @@
-.contact{
+/* .contact{
     display: flex;
     justify-content: center;
     flex-direction: column;    
     background-color: #2B2E35;
-    /* border: 1px solid red; */
-    /* background-color: ; */
 }
 .contat-container{
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
@@ -27,7 +24,6 @@
 }
 
 .contact-us{
-    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,4 +33,93 @@
 
 .contact-us h4,a{
     color: #ffffff;
-}
+} */
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2B2E35;
+    padding: 20px;
+  }
+  
+  .contat-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    margin: 20px 0;
+    padding: 15px 0;
+    width: 100%;
+  }
+  
+  .contat-container img {
+    padding: 10px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+  }
+  
+  .contat-container h3,
+  .contat-container h5 {
+    color: #ffffff;
+    text-align: center;
+    margin: 2px 0;
+  }
+  
+  .contact-us {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 3%;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .contact-us h4,
+  .contact-us a,
+  .contact-us a:visited {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  /* Responsive Media Queries */
+  @media screen and (max-width: 768px) {
+    .contact-us {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .contat-container h3,
+    .contat-container h5 {
+      font-size: 14px;
+    }
+  
+    .contact-us h4,
+    .contact-us a {
+      font-size: 14px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .contat-container img {
+      width: 40px;
+      height: 40px;
+    }
+  
+    .contact-us h4,
+    .contact-us a {
+      font-size: 13px;
+    }
+  
+    .contat-container h3,
+    .contat-container h5 {
+      font-size: 12px;
+    }
+  }
+  
